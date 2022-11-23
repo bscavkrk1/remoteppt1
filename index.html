@@ -2,7 +2,7 @@
 <html>
 <head>
   <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-Header set Access-Control-Allow-Origin *	
+
 <title>Pilot BSCAV</title>  
 </head>
 
@@ -52,6 +52,12 @@ Header set Access-Control-Allow-Origin *
     
 
 <script>
+	var request = new XMLHttpRequest();
+if ('withCredentials' in request) {
+    // CORS supported (XHR)
+}
+	
+	
 
 var images = [];
 function preload() {
