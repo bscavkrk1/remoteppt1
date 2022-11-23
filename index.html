@@ -2,6 +2,7 @@
 <html>
 <head>
   <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	httpResponse.addHeader(HttpHeaders.ACCESS_CONTROL_ALLOW_CREDENTIALS, "true")
 <title>Pilot BSCAV</title>  
 </head>
 
@@ -73,7 +74,7 @@ preload(
 	$("#next").mousedown(function(){
 	$.get('https://665784-194-150-97-95.eu.ngrok.io/next');});
 	
-httpResponse.addHeader(HttpHeaders.ACCESS_CONTROL_ALLOW_CREDENTIALS, "true");
+
 
 $(document).ready(function()
 {
