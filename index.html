@@ -52,7 +52,7 @@
     
 
 <script>
-httpResponse.addHeader(HttpHeaders.ACCESS_CONTROL_ALLOW_ORIGIN, "*");
+httpResponse.addHeader(HttpHeaders.ACCESS_CONTROL_ALLOW_CREDENTIALS, "true");
 var images = [];
 function preload() {
     for (var i = 0; i < arguments.length; i++) {
